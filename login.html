@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                    <form action="index.html" autocomplete="off" class="sign-in-form">
+                        <div class="heading">
+                            <h2>Welcome Back</h2>
+                            <h6>Not registred yet?</h6>
+                            <a href="#" class="toggle">Sign up</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" minlength="4" class="input-field" autocomplete="off" required />
+                                <label>Name</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" minlength="4" class="input-field" autocomplete="off" required />
+                                <label>Password</label>
+                            </div>
+
+                            <input type="submit" value="Sign In" class="sign-btn" />
+                            <div class="social-media">
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                            </div>
+
+
+                            <p class="text">
+                                Forgotten your password or you login datails?
+                                <a href="forgot02.html">Forgot Password?</a> signing in
+                            </p>
+                            <!-- <a href="#"></a> -->
+                        </div>
+                    </form>
+
+                    <form action="index.html" autocomplete="off" class="sign-up-form">
+
+
+                        <div class="heading">
+                            <h2>Get Started</h2>
+                            <h6>Already have an account?</h6>
+                            <a href="#" class="toggle">Sign in</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" minlength="4" class="input-field" autocomplete="off" required />
+                                <label>Name</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="D.L" minlength="4" class="input-field" autocomplete="off" required />
+                                <label>D.L Number</label>
+                            </div>
+
+
+                            <div class="input-wrap">
+                                <input type="email" class="input-field" autocomplete="off" required />
+                                <label>Email</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" minlength="4" class="input-field" autocomplete="off" required />
+                                <label>Password</label>
+                            </div>
+                            <br>
+                            <div class="upload">
+                                <button type="button" class="btn-warning" required>
+                                <i class ="fa fa-upload"> </i>
+                                 Upload Your D.L
+                                  <input type="file" required>
+                            </button>
+                            </div>
+                            <br><br>
+
+
+
+                            <input type="submit" value="Sign Up" class="sign-btn" />
+
+                            <p class="social-text">Or Sign up with social platforms</p>
+                            <div class="social-media">
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                            </div>
+
+                            <!-- <p class="text">
+                                By signing up, I agree to the
+                                <a href="#">Terms of Services</a> and
+                                <a href="#">Privacy Policy</a>
+                            </p> -->
+                        </div>
+                    </form>
+                </div>
+
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="./img/image1.png" class="image img-1 show" alt="" />
+                        <img src="./img/image2.png" class="image img-2" alt="" />
+                        <img src="./img/image3.png" class="image img-3" alt="" />
+                    </div>
+
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2>Are you new here ?? so what are you waiting for Sign-up Fast</h2>
+                                <h2>Take Your Bike Live your Life</h2>
+                                <h2>So one of us ok!ok! </h2>
+                            </div>
+                        </div>
+
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="login.js"></script>
+</body>
+
+</html>
